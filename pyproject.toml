@@ -1,0 +1,11 @@
+[project]
+name="src"
+version="0.0.1"
+description="An MLOPS project for Vehicle Insurance"
+authors=[{name="Ankita Chandrakar", email="ankitachandrakar2301@gmail.com"}]
+
+[tool.setuptools]
+packages={find={}}
+
+[tool.setuptools.dynamic]
+dependencies={file="requirements.txt"}
